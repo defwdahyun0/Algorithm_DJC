@@ -2,7 +2,6 @@
 
 int main()
 {
-
 	int score;
 
 	scanf("%d", &score);
@@ -13,5 +12,5 @@ int main()
 	else if (70 <= score && score <= 79) printf("C");
 	else if (60 <= score && score <= 69) printf("D");
 	else printf("F");
-
+	
 }
