@@ -4,13 +4,13 @@ int main()
 {
     int N;
 
-    scanf("%d",&N);
+    scanf("%d", &N);
 
-    for(int i=1; i<9; i++)
+    for (int i = 1; i < 9; i++)
     {
-        printf("%d * %d = %d\n",N,i,N*i);
+        printf("%d * %d = %d\n", N, i, N * i);
 
     }
-    printf("%d * %d = %d",N,9,N*9);
+    printf("%d * %d = %d", N, 9, N * 9);
 
 }
