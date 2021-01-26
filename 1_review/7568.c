@@ -15,8 +15,7 @@ int main()
     
     for(int i=0;i<N;i++){
         for(int j=0;j<N;j++){
-            if(x[i]<x[j] && y[i]<y[j])
-            {
+            if(x[i]<x[j] && y[i]<y[j]){
                 rank[i]++;
             }
         }
